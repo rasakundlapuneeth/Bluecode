@@ -14,6 +14,7 @@ if [ $# == 0 ]
  read -p "Enter the username: " name
 else
  name=$1
+at GitHub is cnfg file
 fi
 grep -w ^$name /etc/shadow >/dev/null
 if [ $? == 0 ]
