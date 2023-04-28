@@ -21,6 +21,7 @@ then
  check $name
 else
  echo "user $name not found in the system try with another user"
+ echo this modify line in GitHub
 fi
  
 
