@@ -11,5 +11,6 @@ if [ -e $fname ] && [ -f $fname ]
 then
  rfile $fname
 else
+this is my github line 
  echo "Given file $fname is invalid"
 fi
