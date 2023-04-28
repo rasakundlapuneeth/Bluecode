@@ -7,7 +7,8 @@ function check {
   echo "User $1 is locked..."
  else
   echo "User $1 is not locked.."
- fi 
+ fi
+i am doing to the http keyzen in copy paste and save the file and see the file 
 }
 if [ $# == 0 ]
  then
